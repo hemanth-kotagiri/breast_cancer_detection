@@ -1,1 +1,1 @@
-### Machine learning and Deep learning models to detect potential Breast Cancer
+### Machine learning and Deep learning models to detect Breast Cancer
