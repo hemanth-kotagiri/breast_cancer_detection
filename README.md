@@ -1,10 +1,12 @@
-### Machine learning Application to detect Breast Cancer
+### Machine learning Web Application to detect Breast Cancer
 
 Multiple predictive Machine Learning models are
 trained on Breast Cancer data for potentially
 ascertaining between malignant and benign tumor.
 
 ### Dataset
+
+![](./Data/sample.png)
 
 This dataset is taken from
 [Kaggle](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data).
@@ -41,9 +43,7 @@ resulting in 30 features. For instance, field 3 is Mean Radius, field
 13 is Radius SE, field 23 is Worst Radius.
 
 All feature values are recoded with four significant digits.
-
 lissing attribute values: none
-
 Class distribution: 357 benign, 212 malignant
 
 ### Features
