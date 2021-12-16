@@ -3,3 +3,4 @@ env
 .vscode
 .vim
 typings
+.ipynb_checkpoints/
