@@ -78,3 +78,15 @@ Class distribution: 357 benign, 212 malignant
 - Support Vector Classifier
 - Random Forest Classifier
 - Decision Tree Classifier
+
+#### Training
+
+Below are the learning curves of models which did not undergo hyperparameter
+optimization.
+
+| Model                     | Learning Curves                                      |
+| ------------------------- | ---------------------------------------------------- |
+| Logistic Regressor        | ![](./assets/Logistic-Regressor-Learning-Curves.png) |
+| Support Vector Classifier | ![](./assets/Support-Vector-Classifier.png)          |
+| Random Forest Classifier  | ![](./assets/Random-Forest-Classifier.png)           |
+| Decision Tree Clasifier   | ![](./assets/Decision-Tree-Classifier.png)           |
