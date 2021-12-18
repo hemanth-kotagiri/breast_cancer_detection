@@ -84,9 +84,9 @@ Class distribution: 357 benign, 212 malignant
 Below are the learning curves of models which did not undergo hyperparameter
 optimization.
 
-| Model                     | Learning Curves                                      |
-| ------------------------- | ---------------------------------------------------- |
-| Logistic Regressor        | ![](./assets/Logistic-Regressor-Learning-Curves.png) |
-| Support Vector Classifier | ![](./assets/Support-Vector-Classifier.png)          |
-| Random Forest Classifier  | ![](./assets/Random-Forest-Classifier.png)           |
-| Decision Tree Clasifier   | ![](./assets/Decision-Tree-Classifier.png)           |
+| Model                     | Learning Curves                                       |
+| ------------------------- | ----------------------------------------------------- |
+| Logistic Regressor        | ![](./assets/Logistic-Regressor-Learning-Curves.jpeg) |
+| Support Vector Classifier | ![](./assets/Support-Vector-Classifier.jpeg)          |
+| Random Forest Classifier  | ![](./assets/Random-Forest-Classifier.jpeg)           |
+| Decision Tree Clasifier   | ![](./assets/Decision-Tree-Classifier.jpeg)           |
