@@ -1,4 +1,4 @@
-### Machine learning Web Application to detect Breast Cancer
+## Machine learning Web Application to detect Breast Cancer
 
 Multiple predictive Machine Learning models are
 trained on Breast Cancer data for potentially
@@ -6,7 +6,7 @@ ascertaining between malignant and benign tumor.
 
 ### Dataset
 
-![](./Data/sample.png)
+<p align="center"><img width=600 src="./Data/sample.png"></img></p>
 
 This dataset is taken from
 [Kaggle](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data).
