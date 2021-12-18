@@ -71,3 +71,10 @@ Class distribution: 357 benign, 212 malignant
   ]
 }
 ```
+
+### Models
+
+- Logistic Regressor
+- Support Vector Classifier
+- Random Forest Classifier
+- Decision Tree Classifier
