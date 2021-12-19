@@ -89,6 +89,10 @@ optimization.
 
 #### Hyperparameter Optimization
 
+Using `sklearn.model_selection.RandomizedSearchCV` and
+`sklearn.model_selection.GridSearchCV` the parameter space for each model has
+been searched with parallel computing(`n_jobs=-1`).
+
 ```json
 {
   "logistic_regression_params": [
