@@ -4,17 +4,13 @@ Multiple predictive Machine Learning models are
 trained on Breast Cancer data for potentially
 ascertaining between malignant and benign tumor.
 
-### Dataset
+### [Dataset](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data)
 
 <p align="center"><img width=600 src="./Data/sample.png"></img></p>
-
-This dataset is taken from
-[Kaggle](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data).
 
 Features are computed from a digitized image of a fine needle aspirate (FNA) of
 a breast mass. They describe characteristics of the cell nuclei present in the
 image.
-
 Also can be found on [UCI Machine Learning
 Repository](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29).
 
@@ -90,3 +86,19 @@ optimization.
 | Support Vector Classifier | ![](./assets/Support-Vector-Classifier.jpeg)          |
 | Random Forest Classifier  | ![](./assets/Random-Forest-Classifier.jpeg)           |
 | Decision Tree Clasifier   | ![](./assets/Decision-Tree-Classifier.jpeg)           |
+
+#### Hyperparameter Optimization
+
+```json
+{
+  "logistic_regression_params": [
+    "random_state": 0,
+    "solver": "liblinear",
+    "tol": 0.0001
+  ]
+}
+```
+
+| Model              | Learning Curves                                  |
+| ------------------ | ------------------------------------------------ |
+| Logistic Regressor | ![](./assets/Logistic-Regression-Optimized.jpeg) |
