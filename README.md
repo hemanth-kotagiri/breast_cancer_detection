@@ -103,6 +103,8 @@ been searched with parallel computing(`n_jobs=-1`).
 }
 ```
 
-| Model              | Learning Curves                                  |
-| ------------------ | ------------------------------------------------ |
-| Logistic Regressor | ![](./assets/Logistic-Regression-Optimized.jpeg) |
+| Model                     | Learning Curves                                        |
+| ------------------------- | ------------------------------------------------------ |
+| Logistic Regressor        | ![](./assets/Logistic-Regression-Optimized.jpeg)       |
+| Support Vector Classifier | ![](./assets/SVC-Optimized.jpeg)                       |
+| Random Forest Classifier  | ![](./assets/Random-Forests-Classifier-Optimized.jpeg) |
