@@ -95,11 +95,27 @@ been searched with parallel computing(`n_jobs=-1`).
 
 ```json
 {
-  "logistic_regression_params": [
+  "logistic_regression_params": {
     "random_state": 0,
     "solver": "liblinear",
     "tol": 0.0001
-  ]
+  },
+  "svc_params": {
+    "C": 10,
+    "gamma": 0.0001,
+    "kernel": "rbf"
+  },
+  "random_forest_classifier_params": {
+    "max_depth": 80,
+    "min_sample_leaf": 4,
+    "min_sample_split": 5,
+    "n_estimator": 600
+  },
+  "decision_tree_params": {
+    "criterion": "entropy",
+    "max_depth": 3,
+    "min_samples_leaf": 10
+  }
 }
 ```
 
@@ -108,3 +124,4 @@ been searched with parallel computing(`n_jobs=-1`).
 | Logistic Regressor        | ![](./assets/Logistic-Regression-Optimized.jpeg)       |
 | Support Vector Classifier | ![](./assets/SVC-Optimized.jpeg)                       |
 | Random Forest Classifier  | ![](./assets/Random-Forests-Classifier-Optimized.jpeg) |
+| Decision Tree Classifier  | ![](./assets/Decision-Tree-Classifier-Optimized.jpeg)  |
