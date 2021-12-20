@@ -131,3 +131,18 @@ been searched with parallel computing(`n_jobs=-1`).
 | Support Vector Classifier | ![](./assets/SVC-Optimized.jpeg)                       |
 | Random Forest Classifier  | ![](./assets/Random-Forests-Classifier-Optimized.jpeg) |
 | Decision Tree Classifier  | ![](./assets/Decision-Tree-Classifier-Optimized.jpeg)  |
+
+### Deployment
+
+![](./assets/img1.jpg)
+![](./assets/img2.jpg)
+![](./assets/img3.jpg)
+
+#### Requirements
+
+```
+numpy==1.21.4
+pandas==1.3.4
+scikit_learn==1.0.1
+streamlit==1.3.0
+```
