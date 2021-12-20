@@ -12,43 +12,23 @@ MODELS = {
 
 
 def render_sliders():
-    column_one, column_two = st.columns(2)
-    with column_one:
-        radius_mean = st.slider('radius_mean',
-                                6.981000,   28.110000)
-        texture_mean = st.slider('texture_mean',
-                                 9.710000,   39.280000)
-        perimeter_mean = st.slider('perimeter_mean',
-                                   43.790000,  188.500000)
-        area_mean = st.slider('area_mean',
-                              143.500000, 2501.000000)
-        smoothness_mean = st.slider(
-            'smoothness_mean',         0.052630,   0.163400)
-        compactness_mean = st.slider(
-            'compactness_mean',        0.019380,   0.345400)
-        concavity_mean = st.slider('concavity_mean',
-                                   0.000000,   0.426800)
-        radius_worst = st.slider('radius_worst',
-                                 7.930000,   36.040000)
-        texture_worst = st.slider('texture_worst',
-                                  12.020000,  49.540000)
-    with column_two:
-        perimeter_worst = st.slider(
-            'perimeter_worst',         50.410000,  251.200000)
-        area_worst = st.slider('area_worst',
-                               185.200000, 4254.000000)
-        smoothness_worst = st.slider(
-            'smoothness_worst',        0.071170,   0.222600)
-        compactness_worst = st.slider(
-            'compactness_worst',       0.027290,   1.058000)
-        concavity_worst = st.slider(
-            'concavity_worst',         0.000000,   1.252000)
-        concave_point_worst = st.slider(
-            'concave_point_worst',     0.000000,   0.291000)
-        symmetry_worst = st.slider('symmetry_worst',
-                                   0.156500,   0.663800)
-        fractal_dimension_worst = st.slider(
-            'fractal_dimension_worst', 0.055040,   0.207500)
+    radius_mean             = st.slider('radius_mean', 6.981000,   28.110000)
+    texture_mean            = st.slider('texture_mean', 9.710000,   39.280000)
+    perimeter_mean          = st.slider('perimeter_mean', 43.790000,  188.500000)
+    area_mean               = st.slider('area_mean', 143.500000, 2501.000000)
+    smoothness_mean         = st.slider('smoothness_mean', 0.052630, 0.163400)
+    compactness_mean        = st.slider('compactness_mean', 0.019380, 0.345400)
+    concavity_mean          = st.slider('concavity_mean', 0.000000,   0.426800)
+    radius_worst            = st.slider('radius_worst', 7.930000, 36.040000)
+    texture_worst           = st.slider('texture_worst', 12.020000, 49.540000)
+    perimeter_worst         = st.slider('perimeter_worst', 50.410000, 251.200000)
+    area_worst              = st.slider('area_worst', 185.200000, 4254.000000)
+    smoothness_worst        = st.slider('smoothness_worst', 0.071170, 0.222600)
+    compactness_worst       = st.slider('compactness_worst', 0.027290, 1.058000)
+    concavity_worst         = st.slider('concavity_worst', 0.000000, 1.252000)
+    concave_point_worst     = st.slider('concave_point_worst', 0.000000, 0.291000)
+    symmetry_worst          = st.slider('symmetry_worst', 0.156500, 0.663800)
+    fractal_dimension_worst = st.slider('fractal_dimension_worst', 0.055040, 0.207500)
 
     return [radius_mean, texture_mean, perimeter_mean, area_mean,
             smoothness_mean, compactness_mean, concavity_mean, radius_worst,
