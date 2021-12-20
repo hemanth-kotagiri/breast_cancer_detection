@@ -69,10 +69,26 @@ Class distribution: 357 benign, 212 malignant
 ```
 
 - Minimum and Maximum values of each feature
-  | radius_mean | texture_mean | perimeter_mean | area_mean | smoothness_mean | compactness_mean | concavity_mean | radius_worst | texture_worst | perimeter_worst | area_worst | smoothness_worst | compactness_worst | concavity_worst | concave_points_worst | symmetry_worst | fractal_dimension_worst |
-  | ----------- | ------------ | -------------- | ----------- | --------------- | ---------------- | -------------- | ------------ | ------------- | --------------- | ----------- | ---------------- | ----------------- | --------------- | -------------------- | -------------- | ----------------------- |
-  | 6.981000 | 9.710000 | 43.790000 | 143.500000 | 0.052630 | 0.019380 | 0.000000 | 7.930000 | 12.020000 | 50.410000 | 185.200000 | 0.071170 | 0.027290 | 0.000000 | 0.000000 | 0.156500 | 0.055040 |
-  | 28.110000 | 39.280000 | 188.500000 | 2501.000000 | 0.163400 | 0.345400 | 0.426800 | 36.040000 | 49.540000 | 251.200000 | 4254.000000 | 0.222600 | 1.058000 | 1.252000 | 0.291000 | 0.663800 | 0.207500 |
+
+  | Feature                | Min Value  | Max Value   |
+  | ---------------------- | ---------- | ----------- |
+  | radius_mean            | 6.981000   | 28.110000   |
+  | ractal_dimension_worst | 9.710000   | 39.280000   |
+  | ymmetry_worst          | 43.790000  | 188.500000  |
+  | oncave_points_worst    | 143.500000 | 2501.000000 |
+  | oncavity_worst         | 0.052630   | 0.163400    |
+  | ompactness_worst       | 0.019380   | 0.345400    |
+  | moothness_worst        | 0.000000   | 0.426800    |
+  | rea_worst              | 7.930000   | 36.040000   |
+  | erimeter_worst         | 12.020000  | 49.540000   |
+  | exture_worst           | 50.410000  | 251.200000  |
+  | adius_worst            | 185.200000 | 4254.000000 |
+  | oncavity_mean          | 0.071170   | 0.222600    |
+  | ompactness_mean        | 0.027290   | 1.058000    |
+  | moothness_mean         | 0.000000   | 1.252000    |
+  | rea_mean               | 0.000000   | 0.291000    |
+  | erimeter_mean          | 0.156500   | 0.663800    |
+  | texture_mean           | 0.055040   | 0.207500    |
 
 ### Models
 
